@@ -9,7 +9,7 @@ the same `output.yaml` file.
 
 #### Prepare & Launch Python scripts:
 To clone the data from `CAN Matrix.xlsx` and convert the data to `output.yml` file it's required to:
-- clone the repository: `https://github.com/smart2004/CAN_Matrix.git`;
+- clone the repository: `git clone https://github.com/smart2004/CAN_Matrix.git`;
 - may install virtual environment: `python -m venv venv` and run it: `source venv/scripts/activate`[for Windows] or `source venv/bin/activate`[for Linux];
 - run the command in bash terminal(to fulfill the required libraries): `pip install -r requirements.txt`;
 - and run the scripts as: `python routine_appr.py` /OR/ `python compact_appr.py`.
