@@ -1,6 +1,6 @@
 import openpyxl
-from openpyxl import load_workbook
 import re
+
 
 wb = openpyxl.load_workbook('CAN Matrix.xlsx')
 sheet = wb.active
@@ -25,7 +25,7 @@ for i in range(32):
     output_file.write(
         f'  {first_row_values[i]}: {third_row_values[i]}\n'
         )
-    
+
 output_file.write('\n' f'Vehicle.{'.'.join(second_row_values)}:\n')
 
 for i in range(32):
@@ -39,7 +39,7 @@ for i in range(32):
     output_file.write(
         f'  {first_row_values[i]}: {fifth_row_values[i]}\n'
         )
-    
+
 output_file.write('\n' f'Vehicle.{'.'.join(second_row_values)}:\n')
 
 for i in range(32):
@@ -111,21 +111,21 @@ for i in range(32):
     output_file.write(
         f'  {first_row_values[i]}: {fifteenth_row_values[i]}\n'
         )
-    
+
 output_file.write('\n' f'Vehicle.{'.'.join(fourteenth_row_values)}:\n')
 
 for i in range(32):
     output_file.write(
         f'  {first_row_values[i]}: {sixteenth_row_values[i]}\n'
         )
-    
+
 output_file.write('\n' f'Vehicle.{'.'.join(fourteenth_row_values)}:\n')
 
 for i in range(32):
     output_file.write(
         f'  {first_row_values[i]}: {seventeenth_row_values[i]}\n'
         )
-    
+
 output_file.write('\n' f'Vehicle.{'.'.join(fourteenth_row_values)}:\n')
 
 for i in range(32):
@@ -139,7 +139,7 @@ for i in range(32):
     output_file.write(
         f'  {first_row_values[i]}: {nineteenth_row_values[i]}\n'
         )
-    
+
 output_file.write('\n' f'Vehicle.{'.'.join(fourteenth_row_values)}:\n')
 
 for i in range(32):
