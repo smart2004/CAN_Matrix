@@ -2,7 +2,7 @@
 
 #### Description:
 There are two approaches for parsing data from `CAN Matrix.xlsx` file.
-Ang covering these into YAML file `output.yaml` file.
+Ang covering these into YAML `output.yaml` file.
 
 Both approaches either `routine_appr.py` or `compact_appr.py` lead to 
 the same `output.yaml` file. 
